@@ -8,7 +8,7 @@ This repository iimplements **Barlow Twins** ([Barlow Twins: Self-Supervised Lea
 
 **Summary**:
 
-With a ResNet20 as a trunk and a 3-layer MLP (each layer containing 2048 units), the [training notebook](https://github.com/sayakpaul/Barlow-Twins-TF/blob/main/Barlow_Twins.ipynb) can give **62.61%** accuracy on CIFAR10 test set. 100 epochs of pre-training total takes ~23 minutes on a single Tesla V100. There are minor differences from the [original implementation](https://github.com/facebookresearch/barlowtwins/). However, the original loss function and the other minor details like having a big enough projection dimension have been maintained.
+With a ResNet20 as a trunk and a 3-layer MLP (each layer containing 2048 units) and 100 epochs of pre-training, [this training notebook](https://github.com/sayakpaul/Barlow-Twins-TF/blob/main/Barlow_Twins.ipynb) can give **62.61%** accuracy on the CIFAR10 test set. The pre-training total takes ~23 minutes on a single Tesla V100. There are minor differences from the [original implementation](https://github.com/facebookresearch/barlowtwins/). However, the original loss function and the other minor details like having a big enough projection dimension have been maintained.
 
 For details on Barlow Twins, I suggest reading the original paper, it's really well-written. 
 
