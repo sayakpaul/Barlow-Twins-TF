@@ -4,7 +4,7 @@
 <a href="https://colab.research.google.com/github/sayakpaul/Barlow-Twins-TF/blob/main/Barlow_Twins.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </div><br>
 
-This repository iimplements **Barlow Twins** ([Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)) in TensorFlow and demonstrates it on the CIFAR10 dataset.
+This repository implements **Barlow Twins** ([Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)) in TensorFlow and demonstrates it on the CIFAR10 dataset.
 
 **Summary**:
 
